@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "target": "ES2017",
+        "lib": ["ES2017"],
+        "module": "esnext",
+        "rootDir": "./src",
+        "typeRoots": ["./node_modules/@types"],
+        "allowJs": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "@exf/*": ["./src/exFile/*"]
+        }
+    }
+}
