@@ -1,4 +1,4 @@
-## Create and Test a sum function
+## Create and test a sum function
 
 ## Create and test a minus function
 
